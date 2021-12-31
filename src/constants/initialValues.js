@@ -7,3 +7,9 @@ export const skills = [
     'Node',
    // 'SQL'
 ]
+
+export const theme = {
+    primaryColor: 'purple',
+    secondaryColor: 'black',
+    tertiaryColor: 'green'
+}
