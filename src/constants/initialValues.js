@@ -13,3 +13,7 @@ export const theme = {
     secondaryColor: 'black',
     tertiaryColor: 'green'
 }
+
+export const attributions = [
+    'Icon Mafia on iconscout'
+]
