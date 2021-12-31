@@ -1,6 +1,9 @@
 .App {
   text-align: center;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 * {
@@ -40,4 +43,26 @@ nav {
 
 .logo-container {
   width: 30%;
+}
+
+section {
+  padding: 5rem;
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 3px solid green;
+}
+
+#skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 3px solid red;
+  align-items: center;
+  width: 80%;
+}
+
+.skill {
+  padding: 1rem;
 }
