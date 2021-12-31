@@ -1,10 +1,11 @@
 import React from 'react'
-
-function Header() {
+function NavBar() {
     return (
         <nav>
+            <div className='logo-container'>            
+                <img src='../logo2.png' alt='company logo'/>
+            </div>
             <ul className='nav-links'>
-                <li>WELCOME</li>
                 <li>WHAT I DO</li>
                 <li>GET IN CONTACT</li>
                 <li>MY WORK</li>
@@ -13,4 +14,4 @@ function Header() {
     )
 }
 
-export default Header
+export default NavBar;
