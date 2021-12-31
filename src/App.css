@@ -18,6 +18,12 @@
 
 .nav-links li {
   list-style-type: none;
+  
+}
+
+li a {
+  text-decoration: none;
+  color: black;
 }
 
 nav {
@@ -25,6 +31,11 @@ nav {
   flex-direction: row;
   width: 100%;
   margin-top: 1.5rem;
+}
+
+.active {
+  font-weight: bold;
+  border-bottom: 2px solid black;
 }
 
 .logo-container {
