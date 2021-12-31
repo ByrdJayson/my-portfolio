@@ -9,7 +9,12 @@ function Home() {
             </div>
             <div id='skills'>
                 {skills.map(skill => {
-                    return <p className='skill' id={skill}>{skill}</p>
+                    return (
+                        <>
+                            <span className='skill' id={skill}>{skill}</span> 
+                        </>
+                       
+                    )
                 })}
             </div>
         </section>

@@ -51,18 +51,61 @@ section {
   width: 80%;
   flex-wrap: wrap;
   justify-content: center;
-  border: 3px solid green;
+  /* border: 3px solid green; */
 }
 
 #skills {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  border: 3px solid red;
+  /* border: 3px solid red; */
   align-items: center;
   width: 80%;
 }
 
 .skill {
-  padding: 1rem;
+  padding: .7rem;
+}
+
+#HTML::before {
+  content: '';
+  background-image: url('/public/htmllogo.png');
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+#CSS::before {
+  content: '';
+  background-image: url('/public/csslogo.png');
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+#JS::before {
+  content: '';
+  background-image: url('/public/javascriptlogo.png');
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+#React::before {
+  content: '';
+  background-image: url('/public/reactlogo.png');
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+#Redux::before {
+  content: '';
+  background-image: url('/public/reduxlogo.png');
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+#Node::before {
+  content: '';
+  background-image: url('/public/nodelogo.png');
+  width: 32px;
+  height: 32px;
+  display: block;
 }

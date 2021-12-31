@@ -1,9 +1,9 @@
 export const skills = [
     'HTML',
     'CSS',
-    'JavaScript',
+    'JS',
     'React',
     'Redux',
     'Node',
-    'SQL'
+   // 'SQL'
 ]
