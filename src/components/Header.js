@@ -2,9 +2,14 @@ import React from 'react'
 
 function Header() {
     return (
-        <div>
-            
-        </div>
+        <nav>
+            <ul className='nav-links'>
+                <li>WELCOME</li>
+                <li>WHAT I DO</li>
+                <li>GET IN CONTACT</li>
+                <li>MY WORK</li>
+            </ul>
+        </nav>
     )
 }
 
