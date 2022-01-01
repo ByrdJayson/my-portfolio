@@ -6,9 +6,9 @@ function NavBar() {
                 <img src='logo-white.png' alt='company logo'/>
             </div>
             <ul className='nav-links'>
-                <li><a href='#' className='active'>WHAT I DO</a></li>
-                <li><a href='#'>SERVICES</a></li>
-                <li><a href='#'>GET IN CONTACT</a></li>
+                <li><a href='#me-section' className='active'>WHAT I DO</a></li>
+                <li><a href='#offer-section'>SERVICES</a></li>
+                <li><a href='#contact-me'>GET IN CONTACT</a></li>
             </ul>
         </nav>
     )

@@ -118,11 +118,11 @@ section {
 }
 
 .dev-card {
-  background: rgba(217,217,217, .93);
+  background: rgba(217,217,217);
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 70%;
+  width: 50%;
   border-radius: 1rem;
   padding: 1.25rem;
 }
@@ -135,17 +135,17 @@ section {
 }
 
 #offer-section p {
-  width: 70%;
+  width: 100%;
   padding-top: .5rem;
   padding-bottom: 3rem;
   color: white;
 }
 
 .offerings {
-  width: 100%;
+  width: 60%;
   line-height: 2rem;
   color: black;
-  background-color:rgba(217,217,217, .85);
+  background-color:rgba(217,217,217);
   border-radius: 25px;
   padding: 2rem;
   display: flex;
@@ -155,5 +155,35 @@ section {
 
 .service-card {
   width: 30%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact p {
+  width: 60%;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: .5rem;
+}
+
+textarea {
+  display: block;
+}
+
+form {
+  padding-top: 2rem;
+}
+#submit-btn {
+  padding: 0 2rem;
+  border-radius: 25px;
+  color: #d9d9d9;
+  background-color: #4452ce;
 }
 

@@ -32,6 +32,22 @@ function Home() {
                         })}
                 </div>
             </section>
+            <section className='contact' id='contact-me'>
+                <h1>Reach Out</h1>
+                <p>Please Fill Out The Form Below And I Will Be In Contact!</p>
+                <p>Be as detailed as possible!</p>
+                <div>
+                    <form action="https://formsubmit.co/9e3b75cef28e032088e461ce5e5c8e77" method="POST">
+                        <label htmlFor='name'>Name</label>
+                        <input type="text" name="name" required/>
+                        <label htmlFor='email'>Email</label>
+                        <input type="email" name="email" required/>
+                        <label htmlFor='message'>How Can I Help You?</label>
+                        <textarea name='message' rows='4' cols='50' required/>
+                        <button id='submit-btn' type="submit">Send</button>
+                    </form>
+                </div>
+            </section>
         </>
         
     )
