@@ -1,3 +1,9 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
 .App {
   text-align: center;
   width: 100%;
@@ -34,11 +40,6 @@ nav {
   flex-direction: row;
   width: 100%;
   background-color: #4452ce;
-}
-
-.active {
-  font-weight: bold;
-  border-bottom: 2px solid #f4f4f4;
 }
 
 .logo-container {
@@ -187,3 +188,131 @@ form {
   background-color: #4452ce;
 }
 
+@media only screen and (max-width: 1024px) {
+
+  .dev-card {
+    width: 100%;
+  }
+
+  .skill {
+    padding: 1.5rem;
+  }
+
+  .offerings {
+    width: 100%;
+  }
+
+  .service-card {
+    width: 50%;
+  }
+}
+
+
+@media only screen and (max-width: 1286px) {
+
+
+
+  .offerings {
+    width: 100%;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .nav-links {
+    width: 50%;
+  }
+
+  .logo-container {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+
+  .logo-container {
+    width: 30%;
+  }
+
+  .nav-links {
+    width: 70%;
+  }
+
+  #skills {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .service-card {
+    width: 100%;
+  }
+
+  .skill {
+    width: 16%;
+  }
+
+  .contact p {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 414px) {
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+
+  .logo-container {
+    display: flex;
+    margin: 0;
+    padding-bottom: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 3px solid #d9d9d9;
+    padding-bottom: .2rem;
+  }
+
+  nav {
+    padding: 1rem;
+    font-size: 20px;
+  }
+
+  .skill {
+    width: 32%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  label {
+    width: 100%;
+  }
+
+
+  .contact {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
