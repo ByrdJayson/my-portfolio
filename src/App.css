@@ -137,9 +137,23 @@ section {
 #offer-section p {
   width: 70%;
   padding-top: .5rem;
+  padding-bottom: 3rem;
   color: white;
 }
 
 .offerings {
-  width: 80%;
+  width: 100%;
+  line-height: 2rem;
+  color: black;
+  background-color:rgba(217,217,217, .85);
+  border-radius: 25px;
+  padding: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
+
+.service-card {
+  width: 30%;
+}
+
